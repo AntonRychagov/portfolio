@@ -92,6 +92,8 @@ section {
 
 .text__image {
     width: 430px;
+    position: relative;
+    bottom: 50px;
     font-size: 19px;
     line-height: 26px;
     color: #FFFFFF;
@@ -99,6 +101,8 @@ section {
 
 .title {
     width: 965px;
+    position: relative;
+    bottom: 50px;
     font-size: 80px;
     line-height: 70px;
     color: #1BFF07;
