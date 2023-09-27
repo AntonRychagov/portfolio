@@ -1,0 +1,428 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: IBM Plex Mono;
+    background-color: #000;
+    min-width: 1400px;
+}
+
+.container {
+    width: 1155px;
+    margin: 0 auto;
+}
+
+header {
+    margin-bottom: 150px;
+}
+
+section {
+    margin-bottom: 150px;
+}
+
+
+
+
+/* Первый блок */
+
+.header {
+    min-width: 1400px;
+    height: 765px;
+    position: relative;
+    background-image: url(../resources/developer.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50%;
+}
+
+.header__nav {
+    padding-top: 33.1px;
+}
+
+.logo {
+    position: relative;
+    display: inline-block;
+    width: 188px;
+    height: 39px;
+    background: #000;
+    border-radius: 100px;
+}
+
+.logo__rychagov {
+    padding-left: 12px;
+    padding-top: 4px;
+}
+
+.menu__list {
+    display: inline-flex;
+    float: right;
+}
+
+.menu__nav {
+   padding-right: 50px;
+}
+
+.menu__nav:last-child {
+    padding-right: 0px;
+}
+
+.menu__link {
+    font-size: 18px;
+    line-height: 23px;
+    text-decoration: none;
+    color: #fbfbfb;
+}
+
+.menu__link:hover {
+    color: #1BFF07;
+}
+
+.header__block {
+    position: absolute;
+    bottom: 37px;
+}
+
+.header__box {
+    padding-bottom: 29px;
+}
+
+.header__box:last-child {
+    padding-bottom: 0px;
+}
+
+.text__image {
+    width: 430px;
+    font-size: 19px;
+    line-height: 26px;
+    color: #FFFFFF;
+}
+
+.title {
+    width: 965px;
+    font-size: 80px;
+    line-height: 70px;
+    color: #1BFF07;
+    letter-spacing: -3%;
+}
+
+/* Второй блок */
+
+.subtitle {
+    font-size: 55px;
+    line-height: 72px;
+    color: #FFFFFF;
+}
+
+.project__box-realhome {
+    height: 550px;
+    background-image: url(../resources/realhome.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.project__box-glass {
+    height: 550px;
+    background-image: url(../resources/glass.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.project__box-fesiyen {
+    height: 550px;
+    background-image: url(../resources/fesiyen.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.project__link {
+    position: absolute;
+    top: 410px;
+    left: 50px;
+    font-size: 35px;
+    line-height: 46px;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.project__title {
+    position: absolute;
+    top: 410px;
+    left: 50px;
+    font-size: 35px;
+    line-height: 46px;
+    color: #FFFFFF;
+}
+
+.project__subtitle {
+    position:absolute;
+    top: 461px;
+    left: 50px;
+    font-size: 30px;
+    line-height: 39px;
+    color: #FFFFFF;
+} 
+
+.project__card {
+    padding-top: 40px;
+    padding-bottom: 80px;
+}
+
+.view__project {
+    padding: 40px;
+    display: block;
+    width: 582px;
+    line-height: 39px;
+    font-size: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    border: 1px solid #1BFF07;
+    color: #1BFF07;
+}
+
+.view__project:hover {
+    background-color: #1BFF07;
+    border: 1px solid #1BFF07;
+    color:#000
+}
+
+/* Третий блок */
+
+.competencies__list {
+    padding-top: 104px;
+}
+
+.competencies__block {
+    padding-bottom: 120px;
+}
+
+/* HTML CSS */
+
+.competencies__title-html {
+    position: relative;
+    font-size: 35px;
+    line-height: 46px;
+    color: #1BFF07;
+    padding-bottom: 15px;
+}
+
+.competencies__title-html::before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: -51px;
+    width: 45px;
+    height: 44px;
+    border-radius: 10px;
+    background-image: url(../resources/html.png);
+    background-size: 24px, 22px;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-color: #1BFF07;
+}
+
+/* JS */
+
+.competencies__title-js {
+    position: relative;
+    font-size: 35px;
+    line-height: 46px;
+    color: #1BFF07;
+    padding-bottom: 15px;
+}
+
+.competencies__title-js::before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: -51px;
+    width: 45px;
+    height: 44px;
+    border-radius: 10px;
+    background-image: url(../resources/js.png);
+    background-size: 22px, 24px;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-color: #1BFF07;
+}
+
+/* Фреймворки */
+
+.competencies__title-framework {
+    position: relative;
+    font-size: 35px;
+    line-height: 46px;
+    color: #1BFF07;
+    padding-bottom: 15px;
+}
+
+.competencies__title-framework::before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: -51px;
+    width: 45px;
+    height: 44px;
+    border-radius: 10px;
+    background-image: url(../resources/phone.png);
+    background-size: 17px, 25px;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-color: #1BFF07;
+}
+
+/* Адаптивная верстка и мобильная разработка */
+
+.competencies__title-adaptive {
+    position: relative;
+    font-size: 35px;
+    line-height: 46px;
+    color: #1BFF07;
+    padding-bottom: 15px;
+}
+
+.competencies__title-adaptive::before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: -51px;
+    width: 45px;
+    height: 44px;
+    border-radius: 10px;
+    background-image: url(../resources/core.png);
+    background-size: 25px, 27px;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-color: #1BFF07;
+}
+
+
+.competencies__description {
+    font-size: 22px;
+    line-height: 29px;
+    color: #FFFFFF;
+}
+
+.competencies__point:last-child {
+    padding-bottom: 0;
+}
+
+
+/* Четвертый блок */
+
+.service__subtitle {
+    font-size: 35px;
+    line-height: 46px;
+    color: #FFFFFF;
+    padding-bottom: 74px;
+}
+
+.service__block {
+    padding-bottom: 74px;
+}
+
+.service__block:last-child {
+    padding-bottom: 0px;
+}
+
+.box {
+    height: 283px;
+    background-image: url(../resources/grey.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 40px;
+}
+
+.service__title {
+    font-size: 55px;
+    line-height: 72px;
+    color: #1BFF07;
+    padding-bottom: 15px;
+}
+
+.service__description {
+    font-size: 22px;
+    line-height: 29px;
+    color: #FFFFFF;
+}
+
+
+/* Пятый блок */
+
+.contacts {
+    min-width: 1400px;
+    height: 800px;
+    background-image: url(../resources/big-image.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
+    border-radius: 30px;
+    position: relative;
+}
+
+.contacts__wrapper {
+    position: absolute;
+    bottom: 89px;
+}
+
+.contacts__title {
+    font-size: 35px;
+    line-height: 60px;
+    color: #FFFFFF;
+    padding-bottom: 28px;
+}
+
+.contacts__link {
+    font-size: 60px;
+    line-height: 60px;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.contacts__link:hover {
+    color: #1BFF07;
+}
+
+/* Шестой блок */
+
+.footer {
+    min-width: 1400px;
+    height: 220px;
+    background-image: url(../resources/white.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    position: relative;
+}
+
+.footer__text {
+    position: absolute;
+    top: 76px;
+}
+
+.footer__line {
+    padding-bottom: 48px;
+}
+
+.footer__line:last-child {
+    padding-bottom: 0;
+}
+
+.footer__description {
+    font-size: 22px;
+    line-height: 30px;
+    color: #000;
+    font-family: Manrope;
+}
+
+.footer__rules {
+    font-size: 20px;
+    line-height: 27px;
+    color: #000;
+    opacity: 50%;
+    font-family: Manrope;
+}
