@@ -26,7 +26,7 @@ section {
 /* Первый блок */
 
 .header {
-    min-width: 1400px;
+    width: 100%;
     height: 765px;
     position: relative;
     background-image: url(../resources/developer.png);
@@ -119,7 +119,7 @@ section {
 
 .project__box-realhome {
     height: 550px;
-    background-image: url(../resources/realhome.png);
+    background-image: url(../resources/studio-metric.png);
     background-size: cover;
     background-repeat: no-repeat;
     position: relative;
