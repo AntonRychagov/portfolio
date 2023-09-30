@@ -1,0 +1,81 @@
+.subtitle {
+    font-size: 55px;
+    line-height: 72px;
+    color: #FFFFFF;
+}
+
+.project__box-realhome {
+    height: 550px;
+    background-image: url(../resources/studio-metric.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.project__box-glass {
+    height: 550px;
+    background-image: url(../resources/glass.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.project__box-fesiyen {
+    height: 550px;
+    background-image: url(../resources/fesiyen.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.project__link {
+    position: absolute;
+    top: 410px;
+    left: 50px;
+    font-size: 35px;
+    line-height: 46px;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.project__title {
+    position: absolute;
+    top: 410px;
+    left: 50px;
+    font-size: 35px;
+    line-height: 46px;
+    color: #FFFFFF;
+}
+
+.project__subtitle {
+    position:absolute;
+    top: 461px;
+    left: 50px;
+    font-size: 30px;
+    line-height: 39px;
+    color: #FFFFFF;
+} 
+
+.project__card {
+    padding-top: 40px;
+    padding-bottom: 80px;
+}
+
+.view__project {
+    padding: 40px;
+    display: block;
+    width: 582px;
+    line-height: 39px;
+    font-size: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    border: 1px solid #1BFF07;
+    color: #1BFF07;
+}
+
+.view__project:hover {
+    background-color: #1BFF07;
+    border: 1px solid #1BFF07;
+    color:#000
+}

@@ -1,0 +1,33 @@
+.contacts {
+    min-width: 1400px;
+    height: 800px;
+    background-image: url(../resources/big-image.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
+    border-radius: 30px;
+    position: relative;
+}
+
+.contacts__wrapper {
+    position: absolute;
+    bottom: 89px;
+}
+
+.contacts__title {
+    font-size: 35px;
+    line-height: 60px;
+    color: #FFFFFF;
+    padding-bottom: 28px;
+}
+
+.contacts__link {
+    font-size: 60px;
+    line-height: 60px;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.contacts__link:hover {
+    color: #1BFF07;
+}

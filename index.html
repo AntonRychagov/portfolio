@@ -4,6 +4,12 @@
     <link rel="shortcut icon" href="resources/favicon.png" type="image/png">
     <link rel="stylesheet" href="styles/reset.css">
     <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="project.css">
+    <link rel="stylesheet" href="competencies.css">
+    <link rel="stylesheet" href="services.css">
+    <link rel="stylesheet" href="contacts.css">
+    <link rel="stylesheet" href="footer.css">
     
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -18,41 +24,70 @@
 <body>
     <header class="header">
         <div class="container">
-            <div class="header__nav">
-                <a href="#" class="logo">
-                    <img class="logo__rychagov" src="resources/RYCHAGOV.png" alt="RYCHAGOV">
+            <div class="header__inner">
+                <a class="header__logo" href="https://antonrychagov.github.io/portfolio/">
+                    <h2 class="header__link-rychagov">RYCHAGOV</h2>
                 </a>
-                
-                <ul class="menu__list">
-                    <li class="menu__nav">
-                        <a class="menu__link" href="#project">портфолио</a>
-                    </li>
-                    <li class="menu__nav">
-                        <a class="menu__link" href="#competencies">компетенции</a>
-                    </li>
-                    <li class="menu__nav">
-                        <a class="menu__link" href="#services">услуги</a>
-                    </li>
-                    <li class="menu__nav">
-                        <a class="menu__link" href="#contacts">контакты</a>
-                    </li>
-                </ul>
+                <nav>
+                    <ul class="menu__list">
+                        <li class="menu__nav">
+                            <a class="menu__link" href="#project">портфолио</a>
+                        </li>
+                        <li class="menu__nav">
+                            <a class="menu__link" href="#competencies">компетенции</a>
+                        </li>
+                        <li class="menu__nav">
+                            <a class="menu__link" href="#services">услуги</a>
+                        </li>
+                        <li class="menu__nav">
+                            <a class="menu__link" href="#contacts">контакты</a>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="js-burger-btn burger__button"></div>
+                <div class="js-burger burger">
+                    <div class="burger__content">
+                        <div class="burger__logo">
+                            <a class="burger__link" href="https://antonrychagov.github.io/portfolio/">
+                                <h2 class="burger__logo-rychagov">RYCHAGOV</h2>
+                            </a>
+                        </div>
+                        <nav>
+                            <ul class="burger__menu-list">
+                                <li class="burger__menu-nav">
+                                    <a class="burger__menu-link" href="#project">портфолио</a>
+                                </li>
+                                <li class="burger__menu-nav">
+                                    <a class="burger__menu-link" href="#competencies">компетенции</a>
+                                </li>
+                                <li class="burger__menu-nav">
+                                    <a class="burger__menu-link" href="#services">услуги</a>
+                                </li>
+                                <li class="burger__menu-nav">
+                                    <a class="burger__menu-link" href="#contacts">контакты</a>
+                                </li>
+                            </ul>
+                        </nav>
+                        <h3 class="js-burger__content burger__contacts-title">для связи:</h3>
+                        <p class="burger__contacts">
+                            <a class="burger__telegram contacts__properties" target="_blank" href="https://t.me/AntonRychagov">telegram</a>
+                            <a class="burger__mail contacts__properties" target="_blank" href="mailto:ffhbioifcb@gmail.com">mail</a>
+                            <a class="burger__instagram contacts__properties" target="_blank" href="http://www.instagram.com/tea.break56/">instagram</a>
+                        </p>
+                    </div>
+                </div>
             </div>
 
-            <ul class="header__block">
-                <li class="header__box">
-                    <p class="text__image">Разрабатываю имиджевые сайты для 
-                        <br>малого и среднего бизнеса, которые 
-                        <br>повышают престиж компании и позволяют 
-                        <br>выделиться на фоне конкурентов</p>
-                </li>
-                <li class="header__box">
-                    <h1 class="title">Привет, я Антон — фронтенд разработчик и дизайнер сайтов</h1>
-                </li>
-            </ul>
+            <div class="header__about-me">
+                <p class="header__description">Разрабатываю имиджевые сайты для 
+                    <br>малого и среднего бизнеса, которые 
+                    <br>повышают престиж компании и позволяют 
+                    <br>выделиться на фоне конкурентов</p>
+                <h1 class="header__title">Привет, я Антон — фронтенд разработчик и дизайнер сайтов</h1>
+            </div>
         </div>
     </header>
-    <main>
+    <!-- <main>
         <section class="project" id="project">
             <div class="container">
                 <h2 class="subtitle">Самые свежие проекты</h2>
@@ -182,6 +217,7 @@
                 </li>
             </ul>
         </div>
-    </footer>
+    </footer> -->
+    <script src="burger.js"></script>
 </body>
 </html>

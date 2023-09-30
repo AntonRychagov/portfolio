@@ -1,0 +1,118 @@
+.competencies__list {
+    padding-top: 104px;
+}
+
+.competencies__block {
+    padding-bottom: 120px;
+}
+
+/* HTML CSS */
+
+.competencies__title-html {
+    position: relative;
+    font-size: 35px;
+    line-height: 46px;
+    color: #1BFF07;
+    padding-bottom: 15px;
+}
+
+.competencies__title-html::before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: -51px;
+    width: 45px;
+    height: 44px;
+    border-radius: 10px;
+    background-image: url(../resources/html.png);
+    background-size: 24px, 22px;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-color: #1BFF07;
+}
+
+/* JS */
+
+.competencies__title-js {
+    position: relative;
+    font-size: 35px;
+    line-height: 46px;
+    color: #1BFF07;
+    padding-bottom: 15px;
+}
+
+.competencies__title-js::before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: -51px;
+    width: 45px;
+    height: 44px;
+    border-radius: 10px;
+    background-image: url(../resources/js.png);
+    background-size: 22px, 24px;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-color: #1BFF07;
+}
+
+/* Фреймворки */
+
+.competencies__title-framework {
+    position: relative;
+    font-size: 35px;
+    line-height: 46px;
+    color: #1BFF07;
+    padding-bottom: 15px;
+}
+
+.competencies__title-framework::before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: -51px;
+    width: 45px;
+    height: 44px;
+    border-radius: 10px;
+    background-image: url(../resources/phone.png);
+    background-size: 17px, 25px;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-color: #1BFF07;
+}
+
+/* Адаптивная верстка и мобильная разработка */
+
+.competencies__title-adaptive {
+    position: relative;
+    font-size: 35px;
+    line-height: 46px;
+    color: #1BFF07;
+    padding-bottom: 15px;
+}
+
+.competencies__title-adaptive::before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: -51px;
+    width: 45px;
+    height: 44px;
+    border-radius: 10px;
+    background-image: url(../resources/core.png);
+    background-size: 25px, 27px;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-color: #1BFF07;
+}
+
+
+.competencies__description {
+    font-size: 22px;
+    line-height: 29px;
+    color: #FFFFFF;
+}
+
+.competencies__point:last-child {
+    padding-bottom: 0;
+}
