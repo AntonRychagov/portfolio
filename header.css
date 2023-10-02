@@ -36,9 +36,7 @@
 }
 
 .menu__nav {
-   background-color: #005040;
-   padding: 5px;
-   border-radius: 20px;
+    text-transform: uppercase;
 }
 
 .menu__link {
@@ -86,7 +84,8 @@
     transform: translateX(100%);
 }
 
-.burger_open, .burger__content {
+.burger_open
+.burger__content {
     transform: translateX(0);
 }
 
@@ -100,8 +99,6 @@
     color: #1BFF07;
     padding: 7px;
     margin-bottom: 37px;
-    border: 1px solid #1BFF07;
-    border-radius: 100px;
 }
 
 .burger__menu-list {
@@ -219,6 +216,7 @@
 @media (max-width: 767px) {
     .header {
         background-image: url(../resources/developer-phone.png);
+        margin-bottom: 100px;
     }
 
     .header__link-rychagov {

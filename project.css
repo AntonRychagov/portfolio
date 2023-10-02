@@ -2,45 +2,32 @@
     font-size: 55px;
     line-height: 72px;
     color: #FFFFFF;
+    margin-bottom: 40px;
 }
 
-.project__box-realhome {
-    height: 550px;
-    background-image: url(../resources/studio-metric.png);
-    background-size: cover;
-    background-repeat: no-repeat;
+.project__card {
+    display: flex;
+    flex-direction: column;
+    gap: 75px;
+    margin-bottom: 80px;
+}
+
+.project__box {
     position: relative;
 }
 
-.project__box-glass {
-    height: 550px;
-    background-image: url(../resources/glass.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    position: relative;
+.project__image {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    background-position: 50%;
+    border-radius: 30px;
 }
 
-.project__box-fesiyen {
-    height: 550px;
-    background-image: url(../resources/fesiyen.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    position: relative;
-}
-
-.project__link {
-    position: absolute;
-    top: 410px;
-    left: 50px;
-    font-size: 35px;
-    line-height: 46px;
-    text-decoration: none;
-    color: #FFFFFF;
-}
 
 .project__title {
     position: absolute;
-    top: 410px;
+    bottom: 100px;
     left: 50px;
     font-size: 35px;
     line-height: 46px;
@@ -49,16 +36,24 @@
 
 .project__subtitle {
     position:absolute;
-    top: 461px;
+    bottom: 50px;
     left: 50px;
     font-size: 30px;
     line-height: 39px;
     color: #FFFFFF;
 } 
 
-.project__card {
-    padding-top: 40px;
-    padding-bottom: 80px;
+.project__label {
+    position: absolute;
+    top: 60px;
+    left: 50px;
+    font-size: 20px;
+    line-height: 27px;
+    color: #000;
+    text-decoration: none;
+    border-radius: 100px;
+    background: #ffdf84;
+    padding: 10px 20px;    
 }
 
 .view__project {
@@ -69,7 +64,7 @@
     font-size: 30px;
     text-align: center;
     text-decoration: none;
-    border-radius: 5px;
+    border-radius: 100px;
     border: 1px solid #1BFF07;
     color: #1BFF07;
 }
@@ -78,4 +73,73 @@
     background-color: #1BFF07;
     border: 1px solid #1BFF07;
     color:#000
+}
+
+@media (max-width: 1199px) {
+
+    .project__card {
+        gap: 64px;
+    }
+
+    .subtitle {
+        font-size: 45px;
+        line-height: 59px;
+    }
+
+    .project__image {
+        height: 445px;
+        border-radius: 25px;
+    }
+
+    .project__title {
+        font-size: 28px;
+        line-height: 36px;
+        bottom: 76px;
+    }
+
+    .project__subtitle {
+        font-size: 24px;
+        line-height: 31px;
+        bottom: 40px;
+    }
+
+    .view__project {
+        width: 100%;
+        font-size: 24px;
+        line-height: 32px;
+    }
+
+}
+
+@media (max-width: 767px) {
+
+    .project__card {
+        gap: 40px;
+        margin-bottom: 60px;
+    }
+
+    .subtitle {
+        font-size: 30px;
+        line-height: 39px;
+    }
+
+    .project__image {
+        object-position: 3%;
+    }
+
+    .project__subtitle {
+        font-size: 16px;
+        line-height: 21px;
+    }
+
+    .project__label {
+        font-size: 13px;
+        line-height: 18px;
+    }
+
+    .view__project {
+        font-size: 18px;
+        line-height: 23px;
+        padding: 20px;
+    }
 }
