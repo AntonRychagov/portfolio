@@ -148,6 +148,10 @@
 
 @media (max-width: 767px) {
 
+    .competencies {
+        margin-bottom: 100px;
+    }
+
     .skills__title {
         font-size: 36px;
         line-height: 39px;

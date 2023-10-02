@@ -4,8 +4,11 @@ html {
 
 body {
     font-family: IBM Plex Mono;
-    background-color: #000;
-    
+    background-color: #000;   
+}
+
+body, h2, h3, p, a {
+    letter-spacing: -0.03em;
 }
 
 .container {
