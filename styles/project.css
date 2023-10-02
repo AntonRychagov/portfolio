@@ -1,4 +1,4 @@
-.subtitle {
+.title__project {
     font-size: 55px;
     line-height: 72px;
     color: #FFFFFF;
@@ -113,12 +113,16 @@
 
 @media (max-width: 767px) {
 
+    .project {
+        margin-bottom: 100px;
+    }
+
     .project__card {
         gap: 40px;
         margin-bottom: 60px;
     }
 
-    .subtitle {
+    .title__project {
         font-size: 30px;
         line-height: 39px;
     }

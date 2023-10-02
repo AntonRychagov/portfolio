@@ -1,20 +1,33 @@
+.skills__title {
+    font-size: 55px;
+    line-height: 72px;
+    color: #FFFFFF;
+    margin-bottom: 140px;
+}
+
 .competencies__list {
-    padding-top: 104px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 100px 50px;
+
 }
 
 .competencies__block {
-    padding-bottom: 120px;
+    width: calc(50% - 25px);
 }
 
-/* HTML CSS */
 
-.competencies__title-html {
+
+.properties {
     position: relative;
     font-size: 35px;
     line-height: 46px;
     color: #1BFF07;
     padding-bottom: 15px;
 }
+
+/* HTML */
 
 .competencies__title-html::before {
     content: '';
@@ -33,14 +46,6 @@
 
 /* JS */
 
-.competencies__title-js {
-    position: relative;
-    font-size: 35px;
-    line-height: 46px;
-    color: #1BFF07;
-    padding-bottom: 15px;
-}
-
 .competencies__title-js::before {
     content: '';
     display: block;
@@ -58,14 +63,6 @@
 
 /* Фреймворки */
 
-.competencies__title-framework {
-    position: relative;
-    font-size: 35px;
-    line-height: 46px;
-    color: #1BFF07;
-    padding-bottom: 15px;
-}
-
 .competencies__title-framework::before {
     content: '';
     display: block;
@@ -82,14 +79,6 @@
 }
 
 /* Адаптивная верстка и мобильная разработка */
-
-.competencies__title-adaptive {
-    position: relative;
-    font-size: 35px;
-    line-height: 46px;
-    color: #1BFF07;
-    padding-bottom: 15px;
-}
 
 .competencies__title-adaptive::before {
     content: '';
@@ -115,4 +104,61 @@
 
 .competencies__point:last-child {
     padding-bottom: 0;
+}
+
+@media (max-width: 1199px) {
+
+    .skills__title {
+        font-size: 45px;
+        line-height: 59px;
+        margin-bottom: 110px;
+    }
+
+    .competencies__list {
+        gap: 84px 40px;
+    }
+
+    .properties {
+        font-size: 28px;
+        line-height: 36px;
+    }
+
+    .competencies__title-html::before {
+        width: 36px;
+        height: 36px;
+    }
+    .competencies__title-js::before {
+        width: 36px;
+        height: 36px;
+    }
+    .competencies__title-framework::before {
+        width: 36px;
+        height: 36px;
+    }
+    .competencies__title-adaptive::before {
+        width: 36px;
+        height: 36px;
+    }
+
+    .competencies__description {
+        font-size: 18px;
+        line-height: 23px;
+    }
+}
+
+@media (max-width: 767px) {
+
+    .skills__title {
+        font-size: 36px;
+        line-height: 39px;
+    }
+
+    .competencies__list {
+        flex-direction: column;
+        gap: 108px;
+    }
+
+    .competencies__block {
+        width: 100%;
+    }
 }
