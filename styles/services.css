@@ -75,6 +75,10 @@
 
 @media (max-width: 767px) {
 
+    .services {
+        margin-bottom: 100px;
+    }
+
     .title__services {
         margin-bottom: 60px;
     }

@@ -1,5 +1,4 @@
 .contacts {
-    min-width: 1400px;
     height: 800px;
     background-image: url(../resources/big-image.png);
     background-repeat: no-repeat;
@@ -10,24 +9,125 @@
 }
 
 .contacts__wrapper {
-    position: absolute;
-    bottom: 89px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 26px;
 }
 
 .contacts__title {
-    font-size: 35px;
-    line-height: 60px;
-    color: #FFFFFF;
-    padding-bottom: 28px;
-}
-
-.contacts__link {
     font-size: 60px;
     line-height: 60px;
-    text-decoration: none;
     color: #FFFFFF;
+    margin-top: 100px;
+    margin-bottom: 60px;
+
 }
 
-.contacts__link:hover {
-    color: #1BFF07;
+.input {
+    display: block;
+    font-family: IBM Plex Mono;
+    color: #FFFFFF;
+    width: 86%;
+    height: 60px;
+    padding-left: 40px;
+    font-size: 22px;
+    line-height: 29px;
+    border-radius: 1000px;
+    background: #3B3D3B;
+    border-style: unset;
+    
+}
+
+.btn__send {
+    width: 80%;
+    border: none;
+    font: inherit;
+    font-size: 22px;
+    line-height: 29px;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 60px;
+    cursor: pointer;
+}
+
+.btn__send:hover {
+    background: #1BFF07;
+    color: #000;
+}
+
+
+@media (max-width: 1199px) {
+    .contacts {
+        height: 484px;
+        background-image: url(../resources/image-tablet.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: 50%;
+    }
+
+    .contacts__wrapper {
+        width: 40%;
+        margin-left: 50px;
+        gap: 17px;
+    }
+
+    .contacts__title {
+        font-size: 40px;
+        line-height: 40px;
+        margin-top: 50px;
+        margin-bottom: 40px;
+    }
+
+    .input {
+        width: 90%;
+        height: 41px;
+        font-size: 16px;
+        line-height: 21px;
+        padding-left: 24px;
+    }
+
+    .btn__send {
+        width: 78%;
+        font-size: 16px;
+        line-height: 21px;
+        padding: 14px;
+        margin-top: 23px;
+    }
+}
+
+@media (max-width: 767px) {
+    .contacts {
+        height: 428px;
+        background-position: 0%;
+    }
+
+    .contacts__wrapper {
+        width: 83%;
+        gap: 15px;
+        margin-left: 10px;
+    }
+
+    .contacts__title {
+        width: 310px;
+        font-size: 35px;
+        line-height: 37px;
+        margin-top: 30px;
+        margin-bottom: 26px;
+    }
+
+    .input {
+        width: 300px;
+        font-size: 15px;
+        line-height: 20px;
+        height: 38px;
+    }
+
+    .btn__send {
+        width: 300px;
+        font-size: 15px;
+        line-height: 20px;
+        padding: 11px;
+    }
 }
