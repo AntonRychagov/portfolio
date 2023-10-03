@@ -31,3 +31,9 @@ section {
         padding: 0 15px;
     }
 }
+
+@media (max-width: 767px) {
+    section {
+        margin-bottom: 100px;
+    }
+}

@@ -220,7 +220,6 @@
 @media (max-width: 767px) {
     .header {
         background-image: url(../resources/developer-phone.png);
-        margin-bottom: 100px;
     }
 
     .header__link-rychagov {

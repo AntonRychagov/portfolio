@@ -67,6 +67,7 @@
     border-radius: 100px;
     border: 1px solid #1BFF07;
     color: #1BFF07;
+    transition: 0.75s;
 }
 
 .view__project:hover {
@@ -112,10 +113,6 @@
 }
 
 @media (max-width: 767px) {
-
-    .project {
-        margin-bottom: 100px;
-    }
 
     .project__card {
         gap: 40px;
