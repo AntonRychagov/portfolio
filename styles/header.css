@@ -85,6 +85,7 @@
     padding-top: 100px;
     background-color: #000;
     overflow-y: auto;
+    transition: transform 0.3s linear;
     transform: translateX(100%);
 }
 

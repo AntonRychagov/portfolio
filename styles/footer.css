@@ -1,24 +1,16 @@
 .footer {
-    min-width: 1400px;
     height: 220px;
-    background-image: url(../resources/white.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: top;
-    position: relative;
+    background: #FFF;
 }
 
-.footer__text {
-    position: absolute;
-    top: 76px;
+.footer__inner {
+    padding-top: 66px;
+    padding-bottom: 30px;
 }
 
-.footer__line {
-    padding-bottom: 48px;
-}
-
-.footer__line:last-child {
-    padding-bottom: 0;
+.footer__wrapper {
+    display: flex;
+    justify-content: space-between;
 }
 
 .footer__description {
@@ -26,6 +18,29 @@
     line-height: 30px;
     color: #000;
     font-family: Manrope;
+    margin-bottom: 65px;
+}
+
+.footer__list {
+    display: flex;
+    gap: 24px;
+}
+
+.footer__contacts {
+    text-decoration: none;
+    font-family: Manrope;
+    color: #000;
+    font-size: 22px;
+    line-height: 30px;
+}
+
+.footer__contacts:hover {
+    color: #079cff
+}
+
+.footer__name {
+    display: flex;
+    justify-content: space-between;
 }
 
 .footer__rules {
@@ -34,4 +49,70 @@
     color: #000;
     opacity: 50%;
     font-family: Manrope;
+}
+
+@media (max-width: 1199px) {
+
+    .footer {
+        height: 184px;
+    }
+
+    .footer__inner {
+        padding-top: 51px;
+        padding-bottom: 0px;
+    }
+
+    .footer__description {
+        font-size: 16px;
+        line-height: 22px;
+        margin-bottom: 43px;
+    }
+
+    .footer__contacts {
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+    .footer__rules {
+        font-size: 14px;
+        line-height: 19px;
+    }
+
+}
+
+@media (max-width: 767px) {
+    
+    .footer {
+        height: 249px;
+    }
+
+    .footer__inner {
+        padding-top: 40px;
+    }
+
+    .footer__wrapper {
+        flex-direction: column;
+        margin-bottom: 40px;
+    }
+
+    .footer__description {
+        width: 65%;
+        font-size: 15px;
+        line-height: 20px;
+        margin-bottom: 20px;
+    }
+
+    .footer__list {
+        gap: 10px;
+    }
+
+    .footer__name {
+        flex-direction: column;
+        row-gap: 12px;
+    }
+
+    .footer__rules {
+        font-size: 13px;
+        line-height: 18px;
+    }
 }
