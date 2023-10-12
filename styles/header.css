@@ -24,15 +24,14 @@
 .header__link-rychagov {
     font-size: 42px;
     padding: 7px;
-    color: #ffceb2;
-    background: #000;
+    color: #ffffff;
+    /* background: #000; */
     border-radius: 100px;
 }
 
 .menu__list {
     display: inline-flex;
     gap: 50px;
-
 }
 
 .menu__nav {
