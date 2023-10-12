@@ -28,8 +28,9 @@
 .project__title {
     position: absolute;
     bottom: 100px;
-    left: 50px;
+    left: 18px;
     font-size: 35px;
+    font-weight: bold;
     line-height: 46px;
     color: #FFFFFF;
 }
@@ -37,22 +38,23 @@
 .project__subtitle {
     position:absolute;
     bottom: 50px;
-    left: 50px;
+    left: 18px;
     font-size: 30px;
+    font-weight: bold;
     line-height: 39px;
-    color: #FFFFFF;
+    color: #ffffff;
 } 
 
 .project__label {
     position: absolute;
-    top: 60px;
-    left: 50px;
+    top: 26px;
+    left: 18px;
     font-size: 20px;
     line-height: 27px;
     color: #000;
     text-decoration: none;
     border-radius: 100px;
-    background: #ffdf84;
+    background: #ffceb2;
     padding: 10px 20px;    
 }
 
@@ -65,14 +67,14 @@
     text-align: center;
     text-decoration: none;
     border-radius: 100px;
-    border: 1px solid #1BFF07;
-    color: #1BFF07;
+    border: 1px solid #ffceb2;
+    color: #ffceb2;
     transition: 0.75s;
 }
 
 .view__project:hover {
-    background-color: #1BFF07;
-    border: 1px solid #1BFF07;
+    background-color: #ffceb2;
+    border: 1px solid #ffceb2;
     color:#000
 }
 
@@ -93,15 +95,15 @@
     }
 
     .project__title {
-        font-size: 28px;
-        line-height: 36px;
-        bottom: 76px;
+        font-size: 30px;
+        line-height: 40px;
+        bottom: 85px;
     }
 
     .project__subtitle {
         font-size: 24px;
         line-height: 31px;
-        bottom: 40px;
+        bottom: 45px;
     }
 
     .view__project {
@@ -125,7 +127,7 @@
     }
 
     .project__image {
-        object-position: 3%;
+        object-position: 40%;
     }
 
     .project__subtitle {
@@ -134,7 +136,7 @@
     }
 
     .project__label {
-        font-size: 13px;
+        font-size: 14px;
         line-height: 18px;
     }
 
