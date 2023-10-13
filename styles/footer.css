@@ -26,13 +26,34 @@
     gap: 24px;
 }
 
-.footer__contacts {
+.footer__email {
+    width: 32px;
+    height: 32px;
+    background-image: url(../resources/email-32x32.png);
+    background-repeat: no-repeat;
+}
+
+.footer__telegram {
+    width: 32px;
+    height: 32px;
+    background-image: url(../resources/telegram-32x32.png);
+    background-repeat: no-repeat;
+}
+
+.footer__instagram {
+    width: 32px;
+    height: 32px;
+    background-image: url(../resources/insta-32x32.png);
+    background-repeat: no-repeat;
+}
+
+/* .footer__contacts {
     text-decoration: none;
     font-family: Manrope;
     color: #000;
     font-size: 22px;
     line-height: 30px;
-}
+} */
 
 .footer__contacts:hover {
     color: #ffceb2
@@ -103,7 +124,7 @@
     }
 
     .footer__list {
-        gap: 10px;
+        gap: 15px;
     }
 
     .footer__name {

@@ -12,15 +12,14 @@
     margin-bottom: 80px;
 }
 
-.project__box {
+.project__list {
     position: relative;
 }
 
 .project__image {
     width: 100%;
-    height: 500px;
+    height: 587px;
     object-fit: cover;
-    background-position: 50%;
     border-radius: 30px;
 }
 
@@ -58,7 +57,7 @@
     padding: 10px 20px;    
 }
 
-.view__project {
+.project__btn {
     padding: 40px;
     display: block;
     width: 582px;
@@ -72,7 +71,7 @@
     transition: 0.75s;
 }
 
-.view__project:hover {
+.project__btn:hover {
     background-color: #ffceb2;
     border: 1px solid #ffceb2;
     color:#000
@@ -92,6 +91,7 @@
     .project__image {
         height: 445px;
         border-radius: 25px;
+        object-position: bottom;
     }
 
     .project__title {
@@ -106,7 +106,7 @@
         bottom: 45px;
     }
 
-    .view__project {
+    .project__btn {
         width: 100%;
         font-size: 24px;
         line-height: 32px;
@@ -127,7 +127,7 @@
     }
 
     .project__image {
-        object-position: 40%;
+        object-position: 57%;
     }
 
     .project__subtitle {
@@ -140,7 +140,7 @@
         line-height: 18px;
     }
 
-    .view__project {
+    .project__btn {
         font-size: 18px;
         line-height: 23px;
         padding: 20px;

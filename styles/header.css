@@ -21,11 +21,11 @@
     text-decoration: none;
 }
 
-.header__link-rychagov {
+.header__link {
     font-size: 42px;
     padding: 7px;
-    color: #ffffff;
-    /* background: #000; */
+    color: #ffceb2;
+    background: #000;
     border-radius: 100px;
 }
 
@@ -49,93 +49,6 @@
     color: #fb6400;
 }
 
-.burger__button {
-    display: none;
-    z-index: 100;
-}
-
-.burger {
-    z-index: 98;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.85);
-    display: flex;
-    justify-content: end;
-    visibility: hidden;
-    transition: all 0.3s ease;
-}
-
-.burger_open {
-    visibility: visible;
-}
-
-.body_fixed {
-    overflow: hidden;
-}
-
-.burger__content { 
-    position: relative;
-    width: 320px;
-    height: 100%;
-    padding-left: 37px;
-    padding-top: 100px;
-    background-color: #000;
-    overflow-y: auto;
-    transition: transform 0.3s linear;
-    transform: translateX(100%);
-}
-
-.burger_open
-.burger__content {
-    transform: translateX(0);
-}
-
-.burger__link {
-    text-decoration: none;
-}
-
-.burger__logo-rychagov {
-    width: 161px;
-    font-size: 35px;
-    color: #ffceb2;
-    margin-bottom: 37px;
-}
-
-.burger__menu-list {
-    display: flex;
-    flex-direction: column;
-    gap: 21px;
-    margin-bottom: 91px;
-}
-
-.burger__menu-link {
-    text-decoration: none;
-    font-size: 25px;
-    line-height: 33px;
-    text-transform: uppercase;
-    color: #FFFFFF;
-}
-
-.burger__menu-link:hover {
-    color: #ffceb2;
-}
-
-.burger__contacts-title {
-    font-size: 16px;
-    line-height: 21px;
-    color: #FFFFFF;
-    opacity: 0.5;
-    margin-bottom: 20px;
-}
-
-.burger__contacts {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-}
 
 .contacts__properties {
     text-decoration: none;
@@ -167,7 +80,7 @@
 }
 
 .header__title {
-    max-width: 919px;
+    max-width: 1001px;
     position: relative;
     bottom: 50px;
     font-size: 80px;
@@ -186,24 +99,6 @@
 
     .menu__list {
         display: none;
-    }
-
-    .burger__button {
-        display: block;
-        width: 40px;
-        height: 40px;
-        background-image: url(../resources/burger-menu.png);
-        background-repeat: no-repeat;
-        background-size: cover;
-        cursor: pointer;
-    }
-
-
-    .burger-btn_open {
-        width: 40px;
-        height: 40px;
-        background-image: url(../resources/burger-cross.png);
-        background-repeat: no-repeat;
     }
 
     .header__title {
@@ -229,7 +124,7 @@
         margin-bottom: 100px;
     }
 
-    .header__link-rychagov {
+    .header__link {
         font-size: 30px;
     }
 

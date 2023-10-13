@@ -1,11 +1,14 @@
 .contacts {
     height: 800px;
-    background-image: url(../resources/big-image.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: 50%;
+    background-color: #191C19;
     border-radius: 30px;
     position: relative;
+}
+
+.contacts__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .contacts__wrapper {
@@ -16,6 +19,7 @@
 }
 
 .contacts__title {
+    max-width: 553px;
     font-size: 60px;
     line-height: 60px;
     color: #FFFFFF;
@@ -39,7 +43,7 @@
     
 }
 
-.btn__send {
+.contact__btn {
     width: 80%;
     border: none;
     font: inherit;
@@ -53,29 +57,36 @@
     transition: 0.75s;
 }
 
-.btn__send:hover {
+.contact__btn:hover {
     background: #ffceb2;
     color: #000;
 }
 
+.contacts__icon {
+    display: flex;
+    position: relative;
+    width: 512px;
+    height: 512px;
+    background-image: url(../resources/contact-icon.png);
+    background-repeat: no-repeat;
+    top: 60px;
+}
+
 
 @media (max-width: 1199px) {
+
     .contacts {
-        height: 484px;
-        background-image: url(../resources/image-tablet.png);
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: 50%;
+        height: 510px;
     }
 
     .contacts__wrapper {
-        width: 40%;
+        width: 44%;
         margin-left: 50px;
         gap: 17px;
     }
 
     .contacts__title {
-        width: 100%;
+        max-width: 373px;
         font-size: 40px;
         line-height: 40px;
         margin-top: 45px;
@@ -90,28 +101,31 @@
         padding-left: 24px;
     }
 
-    .btn__send {
+    .contact__btn {
         width: 78%;
         font-size: 16px;
         line-height: 21px;
         padding: 14px;
         margin-top: 23px;
     }
+
+    .contacts__icon {
+        width: 256px;
+        height: 256px;
+        background-image: url(../resources/contact-icon-tablet.png);
+        top: 40px;
+        margin-right: 50px;
+    }
 }
 
 @media (max-width: 767px) {
 
-    .contacts__wrapper {
-        width: 46%;
-    }
-
-}
-
-@media (max-width: 500px) {
-
     .contacts {
         height: 428px;
-        background-position: 0%;
+    }
+
+    .contacts__icon {
+        display: none;
     }
 
     .contacts__wrapper {
@@ -121,6 +135,7 @@
     }
 
     .contacts__title {
+        max-width: 310px;
         font-size: 35px;
         line-height: 37px;
         margin-top: 30px;
@@ -128,14 +143,23 @@
     }
 
     .input {
+        max-width: 353px;
         font-size: 15px;
         line-height: 20px;
         height: 38px;
     }
 
-    .btn__send {
+    .contact__btn {
+        max-width: 353px;
         font-size: 15px;
         line-height: 20px;
         padding: 11px;
     }
+
+    .contacts__icon {
+        background-image: none;
+    }
+
 }
+
+
