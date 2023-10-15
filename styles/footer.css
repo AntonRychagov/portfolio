@@ -1,4 +1,4 @@
-.footer {
+.footer__background {
     height: 220px;
     background: #FFF;
 }
@@ -47,14 +47,6 @@
     background-repeat: no-repeat;
 }
 
-/* .footer__contacts {
-    text-decoration: none;
-    font-family: Manrope;
-    color: #000;
-    font-size: 22px;
-    line-height: 30px;
-} */
-
 .footer__contacts:hover {
     color: #ffceb2
 }
@@ -74,7 +66,7 @@
 
 @media (max-width: 1199px) {
 
-    .footer {
+    .footer__background {
         height: 184px;
     }
 
@@ -103,7 +95,7 @@
 
 @media (max-width: 767px) {
     
-    .footer {
+    .footer__background {
         height: 249px;
     }
 

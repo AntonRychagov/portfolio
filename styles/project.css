@@ -1,15 +1,9 @@
-.title__project {
-    font-size: 55px;
-    line-height: 72px;
-    color: #FFFFFF;
-    margin-bottom: 40px;
-}
-
 .project__card {
     display: flex;
     flex-direction: column;
     gap: 75px;
     margin-bottom: 80px;
+    margin-top: 40px;
 }
 
 .project__list {
@@ -83,11 +77,6 @@
         gap: 64px;
     }
 
-    .subtitle {
-        font-size: 45px;
-        line-height: 59px;
-    }
-
     .project__image {
         height: 445px;
         border-radius: 25px;
@@ -119,11 +108,6 @@
     .project__card {
         gap: 40px;
         margin-bottom: 60px;
-    }
-
-    .title__project {
-        font-size: 30px;
-        line-height: 39px;
     }
 
     .project__image {

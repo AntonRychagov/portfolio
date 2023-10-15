@@ -24,16 +24,34 @@ section {
     margin-bottom: 150px;
 }
 
+.title {
+    font-size: 55px;
+    line-height: 72px;
+    color: #FFFFFF;
+}
+
 
 @media (max-width: 1199px) {
+
     .container {
         width: 100%;
         padding: 0 15px;
     }
+
+    .title {
+        font-size: 45px;
+        line-height: 59px;
+    }
 }
 
 @media (max-width: 767px) {
+
     section {
         margin-bottom: 100px;
+    }
+
+    .title {
+        font-size: 30px;
+        line-height: 39px;
     }
 }

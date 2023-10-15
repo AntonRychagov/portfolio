@@ -1,100 +1,27 @@
-.skills__title {
-    font-size: 55px;
-    line-height: 72px;
-    color: #FFFFFF;
-    margin-bottom: 140px;
-}
-
 .competencies__list {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
     gap: 100px 50px;
-
+    margin-top: 100px;
 }
 
 .competencies__block {
     width: calc(50% - 25px);
 }
 
-
-
-.properties {
-    position: relative;
+.competencies__title {
     font-size: 35px;
     line-height: 46px;
     color: #ffceb2;
-    padding-bottom: 15px;
+    margin-bottom: 15px;
 }
 
-/* HTML */
-
-.competencies__title-html::before {
-    content: '';
-    display: block;
-    position: absolute;
-    top: -51px;
-    width: 45px;
-    height: 44px;
-    border-radius: 10px;
-    background-image: url(../resources/html.png);
-    background-size: 24px, 22px;
-    background-repeat: no-repeat;
-    background-position: 50%;
-    background-color: #ffceb2;
+.img__icon {
+    width: 64px;
+    height: 64px;
+    margin-bottom: 20px;
 }
-
-/* JS */
-
-.competencies__title-js::before {
-    content: '';
-    display: block;
-    position: absolute;
-    top: -51px;
-    width: 45px;
-    height: 44px;
-    border-radius: 10px;
-    background-image: url(../resources/js.png);
-    background-size: 22px, 24px;
-    background-repeat: no-repeat;
-    background-position: 50%;
-    background-color: #ffceb2;
-}
-
-/* Фреймворки */
-
-.competencies__title-framework::before {
-    content: '';
-    display: block;
-    position: absolute;
-    top: -51px;
-    width: 45px;
-    height: 44px;
-    border-radius: 10px;
-    background-image: url(../resources/phone.png);
-    background-size: 17px, 25px;
-    background-repeat: no-repeat;
-    background-position: 50%;
-    background-color: #ffceb2;
-}
-
-/* Адаптивная верстка и мобильная разработка */
-
-.competencies__title-adaptive::before {
-    content: '';
-    display: block;
-    position: absolute;
-    top: -51px;
-    width: 45px;
-    height: 44px;
-    border-radius: 10px;
-    background-image: url(../resources/core.png);
-    background-size: 25px, 27px;
-    background-repeat: no-repeat;
-    background-position: 50%;
-    background-color: #ffceb2;
-}
-
 
 .competencies__description {
     font-size: 22px;
@@ -102,42 +29,16 @@
     color: #FFFFFF;
 }
 
-.competencies__point:last-child {
-    padding-bottom: 0;
-}
-
 @media (max-width: 1199px) {
-
-    .skills__title {
-        font-size: 45px;
-        line-height: 59px;
-        margin-bottom: 100px;
-    }
 
     .competencies__list {
         gap: 84px 40px;
+        margin-top: 100px;
     }
 
-    .properties {
-        font-size: 24px;
+    .competencies__title {
+        font-size: 28px;
         line-height: 36px;
-    }
-
-    .competencies__title-html::before {
-        width: 36px;
-        height: 36px;
-    }
-    .competencies__title-js::before {
-        width: 36px;
-        height: 36px;
-    }
-    .competencies__title-framework::before {
-        width: 36px;
-        height: 36px;
-    }
-    .competencies__title-adaptive::before {
-        width: 36px;
-        height: 36px;
     }
 
     .competencies__description {
@@ -148,17 +49,14 @@
 
 @media (max-width: 767px) {
 
-    .skills__title {
-        font-size: 36px;
-        line-height: 39px;
-    }
-
     .competencies__list {
         flex-direction: column;
         gap: 100px;
+        margin-top: 70px;
     }
 
     .competencies__block {
         width: 100%;
     }
+
 }
